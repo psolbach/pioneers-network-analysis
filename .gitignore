@@ -1,0 +1,7 @@
+**/.DS_Store
+**/*.gephi*
+**/venv
+__pycache__
+*.png
+*.svg
+userdata_backup
