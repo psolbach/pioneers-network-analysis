@@ -5,3 +5,4 @@ __pycache__
 *.png
 *.svg
 userdata_backup
+.ipynb_checkpoints/
