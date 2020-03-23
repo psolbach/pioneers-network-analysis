@@ -1,5 +1,6 @@
 **/.DS_Store
 **/venv
+**/**.gephi_temp*
 __pycache__
 *.png
 *.svg
