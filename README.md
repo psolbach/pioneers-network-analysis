@@ -21,7 +21,7 @@ python tools/get-{followers/follows}-twarc.py
 
 ### Data preparation
 ```bash
-jupyterlab # then load up convert.ipynb
+jupyter-lab # then load up convert.ipynb
 ```
 
 ### Analysis with Gephi
