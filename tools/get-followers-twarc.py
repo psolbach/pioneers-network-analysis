@@ -4,7 +4,7 @@ import time
 
 from twarc.client2 import Twarc2
 from twarc.expansions import ensure_flattened
-from users import users
+from seed_accounts import users
 
 # Your bearer token here
 t = Twarc2(bearer_token=os.environ['TWITTER_BEARER_TOKEN'])
@@ -36,4 +36,4 @@ for i, user in enumerate(users):
     print(f"Collecting follows for {username} failed with {e}")
 
   print(f"Sleeping for 6 minutes to avoid throttling")
-  time.sleep(60*6)
+  time.sleep(60*2)

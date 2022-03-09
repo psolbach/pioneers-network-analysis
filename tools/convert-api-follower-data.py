@@ -8,7 +8,7 @@ from os.path import isfile, join
 
 CSV_PATH_E = "csv/graphdata_e.csv"
 CSV_PATH_V = "csv/graphdata_v.csv"
-USERDATA_PATH = "userdata/"
+USERDATA_PATH = "userdata_followers/"
 
 def string_to_hash(string, length=8):
   return abs(hash(string)) % (10 ** length)

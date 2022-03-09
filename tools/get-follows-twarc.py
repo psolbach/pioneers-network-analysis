@@ -4,7 +4,7 @@ import time
 
 from twarc.client2 import Twarc2
 from twarc.expansions import ensure_flattened
-from users import users
+from seed_accounts import users
 
 # Your bearer token here
 t = Twarc2(bearer_token=os.environ['TWITTER_BEARER_TOKEN'])
