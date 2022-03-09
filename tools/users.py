@@ -1,3 +1,7 @@
+large = [
+"dvg"
+]
+
 users = [
   "alehaderlein",
   "ALuetzkendorf",
@@ -18,7 +22,6 @@ users = [
   "datenfreunde",
   "David_Schraven",
   "dleiffels",
-  "dvg",
   "felixfrie",
   "gaborsteingart",
   "Longsledge",

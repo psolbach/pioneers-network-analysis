@@ -10,10 +10,10 @@ from users import users
 t = Twarc2(bearer_token=os.environ['TWITTER_BEARER_TOKEN'])
 
 for i, user in enumerate(users):
-  print(f"Fetching follows {i+1}/{len(users)} for username {user}")
+  print(f"Fetching followers {i+1}/{len(users)} for username {user}")
 
   username = user.lower()
-  filepath = f"userdata/{username}.json"
+  filepath = f"userdata_followers/{username}.json"
 
   if not os.path.exists(filepath):
     with open(filepath, 'w+'): pass
@@ -23,7 +23,7 @@ for i, user in enumerate(users):
   
   try:
     follows = []
-    follows_generator = t.following(user=username)
+    follows_generator = t.followers(user=username)
     
     for i, follower_page in enumerate(follows_generator):
       print(f"Processing page {i+1} for {username}")
