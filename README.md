@@ -16,8 +16,7 @@ pip3 install -r requirements.txt
 ### Get user data via Twitter API
 ```bash
 export TWITTER_BEARER_TOKEN=[your_token_here]
-pip3 install -r requirements.txt
-jupyterlab
+python tools/get-{followers/follows}-twarc.py 
 ```
 
 ### Data preparation
