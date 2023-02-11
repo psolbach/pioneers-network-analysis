@@ -23,7 +23,7 @@ humanize==4.0.0
 idna==3.3
 ipdb==0.13.9
 ipykernel==6.9.1
-ipython==8.1.1
+ipython==8.10.0
 ipython-genutils==0.2.0
 jedi==0.18.1
 Jinja2==3.0.3
